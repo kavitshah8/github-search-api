@@ -1,21 +1,35 @@
 {
-  "name": "Doppler",
+  "name": "React-Project-Setup",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "author": "Kavit Shah",
   "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "^4.4.5",
-    "rc-slider": "^3.3.2",
-    "react": "^0.14.2",
-    "react-dom": "^0.14.2"
+    "react": "^15.0",
+    "react-router": "^2.0.0",
+    "react-dom": "^15.0"
   },
   "devDependencies": {
-    "babel-core": "^5.8.33",
-    "babel-loader": "^5.3.3",
-    "css-loader": "^0.22.0",
-    "style-loader": "^0.13.0",
-    "webpack": "^1.12.3"
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "copy-webpack-plugin": "^4.0.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "html-webpack-plugin": "^2.24.0",
+    "json-loader": "^0.5.4",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0"
   }
 }
